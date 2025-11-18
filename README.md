@@ -1,4 +1,4 @@
 # Tienda
 Duvan Bejarano
-Nestor Cubillos
+Laura Quiceno
 Jorge Pinzon
