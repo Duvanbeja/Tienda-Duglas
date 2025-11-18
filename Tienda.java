@@ -47,18 +47,18 @@ public class Tienda {
         }
 
         System.out.println("Ingrese la cantidad que deseas agregar: ");
-        int cant = Ahuyama.nextInt();
+        int cantidades = Ahuyama.nextInt();
 
         System.out.println("Ingrese el precio del producto: ");
         int precio = Ahuyama.nextInt();
         Ahuyama.nextLine();
 
-        if (cant < 0 || precio < 0){
+        if (cantidades < 0 || precio < 0){
             System.out.println("No se permiten numeros negativos");
             return;
         }
         nombres[totalProductos] = producto;
-        cantidad[totalProductos] = cant;
+        cantidad[totalProductos] = cantidades;
         precios[totalProductos] = precio;
         totalProductos++;
 
@@ -73,3 +73,4 @@ public static int BuscarProducto(String producto){
         return -1;
     }
 }
+    
