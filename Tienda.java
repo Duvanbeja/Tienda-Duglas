@@ -33,9 +33,10 @@ public class Tienda {
 
             if(option == 1){
                 IngresarProducto();
-            }
     }
 }
+}
+
     public static void IngresarProducto(){
         System.out.print("Ingrese nombre del nuevo producto: ");
         String producto = Ahuyama.nextLine();
